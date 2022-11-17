@@ -51,6 +51,7 @@ code {
 .search-button {
   background-color: black;
   color: white;
+  border: none;
   border-radius: 8px;
   padding: 0 12px;
 }
@@ -73,6 +74,7 @@ code {
   background-color: black;
   color: white;
   font-size: 65%;
+  border: none;
   border-radius: 42px;
   padding: 12px;
   width: 100px;
