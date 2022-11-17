@@ -45,7 +45,6 @@ code {
   width: 300px;
   border-radius: 8px;
   border: 1px solid #DFDFDF;
-  margin-left: 20%;
   margin-right: 10px;
   
 }
@@ -96,6 +95,11 @@ pre {
   sans-serif;
  }
 
+ .searchbox {
+  margin-left: 20%;
+  display: flex;
+}
+
 @media screen and (max-width: 1480px) {
     
 
@@ -137,20 +141,31 @@ pre {
         }
         .search {
           margin-left: 8%;
-          width: 120px;
+          width: 180px;
+        }
+        .searchbox {
+          position: absolute;
+          top: 14%;
+          display: flex;
+          margin-left: 5%;
         }
 
         .cover-1{
           margin-left: 25%;
-          margin-top: 50px;
-          height: 400px;
+          margin-top: 36%;
+          height: 300px;
         }
         
         .cover-1-text {
           position: absolute;
-          top: 60%;
-          left: 40%;
-          font-size: 130%;
+          top: 65%;
+          left: 38%;
+          font-size: 80%;
           height: 80vh;
+        }
+
+        .ipad-buy {
+          font-size: 100%;
+          padding: 8px;
         }
 }

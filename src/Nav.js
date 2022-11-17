@@ -12,8 +12,10 @@ function Nav() {
         <a href=''>Home</a>
         <a href=''>Services</a>
         <a className="contactus" href=''><pre>Contact Us</pre></a>
+        <div className='searchbox'>
         <input className='search' placeholder='Search'/>
         <button className='search-button'>Search</button>
+        </div>
       </div>
     );
   }
