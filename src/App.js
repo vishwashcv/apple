@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "./index.css";
+import ipad from "./images/ipad.jpg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <img
+        className="cover-1"
+        src={
+          ipad
+        }
+      />
+      <div className="cover-1-text">
+      <h1>
+        Lovable.
+        <br />
+        Drawable.
+        <br />
+        Magical.
+      </h1>
+      <div className="buy">
+      <button className="ipad-buy">Buy</button>
+      <a className="learn-more" href="">Learn more &gt;</a>
+      </div>
+      </div>
+    </>
   );
 }
 

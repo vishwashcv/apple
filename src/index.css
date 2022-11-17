@@ -5,9 +5,152 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.Nav{
+  display: flex;
+  padding: 20px;
+  height: 35px;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.Nav > a {
+  margin-left: 35px;
+  font-size: 100%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.search {
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #DFDFDF;
+  margin-left: 20%;
+  margin-right: 10px;
+  
+}
+.search-button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+
+.cover-1{
+  margin-left: 30%;
+  margin-top: 50px;
+  height: 80vh;
+}
+
+.cover-1-text {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  font-size: 200%;
+}
+
+.ipad-buy {
+  background-color: black;
+  color: white;
+  font-size: 65%;
+  border-radius: 42px;
+  padding: 12px;
+  width: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.learn-more {
+  display: block;
+  font-size: 70%;
+  padding: 20px 0;
+}
+
+pre {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+ }
+
+@media screen and (max-width: 1480px) {
+    
+
+      .cover-1{
+        margin-left: 300px;
+        margin-top: 50px;
+      }
+      
+      .cover-1-text {
+        position: absolute;
+        top: 18%;
+        left: 65%;
+        font-size: 200%;
+        height: 80vh;
+      }
+      
+}
+
+@media screen and (max-width: 980px) {
+        .Nav{
+          display: flex;
+          padding: 20px;
+          height: 35px;
+          border-bottom: 1px solid #DFDFDF;
+        }
+        
+        .Nav > a {
+          margin-left: 4%;
+          font-size: 100%;
+          text-decoration: none;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .logo {
+          margin-left: 4%;
+        }
+        .search {
+          margin-left: 8%;
+          width: 120px;
+        }
+
+        .cover-1{
+          margin-left: 25%;
+          margin-top: 50px;
+          height: 400px;
+        }
+        
+        .cover-1-text {
+          position: absolute;
+          top: 60%;
+          left: 40%;
+          font-size: 130%;
+          height: 80vh;
+        }
 }
