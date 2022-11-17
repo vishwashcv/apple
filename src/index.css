@@ -136,10 +136,12 @@ pre {
           display: flex;
           justify-content: center;
           align-items: center;
+          display: none;
         }
 
         .logo {
-          margin-left: 4%;
+          margin-left: 44%;
+          
         }
         .search {
           margin-left: 8%;
@@ -154,14 +156,14 @@ pre {
 
         .cover-1{
           margin-left: 25%;
-          margin-top: 36%;
-          height: 300px;
+          margin-top: 12vh;
+          height: 290px;
         }
         
         .cover-1-text {
           position: absolute;
           top: 65%;
-          left: 38%;
+          left: 36%;
           font-size: 80%;
           height: 80vh;
         }
